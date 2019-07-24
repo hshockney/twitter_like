@@ -1,11 +1,28 @@
-<div class='album py-5 bg-light'>
-    <div class="container">
-        <div class="row">
+<br>
+<br>
 
+
+
+
+
+<div class="album py-5 bg-light">
+        <div class="container">
+
+          <div class="row">
+
+<% if user_signed_in? %>
+         <%= render 'profile' %>
+<% else %>
+
+<%= render 'trends' %>
+
+<% end %>
+
+<%= render 'feed' %>
+
+
+<%= render 'who-to-follow' %>
+
+ </div>
         </div>
-        <%= render 'trends' %>
-        <%= render 'feed' %>
-        <%= render 'who-to-follow' %>
-
-    </div>
-</div>
+      </div>
