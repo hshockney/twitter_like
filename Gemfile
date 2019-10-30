@@ -24,7 +24,7 @@ gem 'guard-livereload', '~> 2.5', '>= 2.5.2', require: false
 gem 'bootstrap', '~> 4.3', '>= 4.3.1'
 gem 'simple_form', '~> 4.1'
 gem 'gravatar_image_tag', '~> 1.2'
-gem 'devise', '~> 4.6', '>= 4.6.2'
+gem 'devise', '~> 4.7'
 gem 'jquery-rails'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
