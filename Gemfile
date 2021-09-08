@@ -18,7 +18,7 @@ gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.7'
 gem 'binding_of_caller', '~> 0.8.0'
-gem 'better_errors', '~> 2.5', '>= 2.5.1'
+gem 'better_errors', '~> 2.8'
 gem 'guard', '~> 2.15'
 gem 'guard-livereload', '~> 2.5', '>= 2.5.2', require: false
 gem 'bootstrap', '~> 4.3', '>= 4.3.1'
